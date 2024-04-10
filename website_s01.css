@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&family=Yuji+Hentaigana+Akari&family=ZCOOL+QingKe+HuangYou&display=swap');
+body{
+    font-family: Arial, 'Noto Serif TC', sans-serif;
+    font-size: 14pt;
+    padding-top: 60px;
+}
+.navbar{
+    padding: 0px;
+    background-color: yellow;
+}
+.nav-link{
+    color: #004080 !important;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+.dropdown-item{
+    color: #337ab7 !important;
+    font-size: 1.2vw;
+}
+.dropdown .dropdown-item:hover,.dropdown .dropdown-item:focus{
+    color: #FFF !important;
+    background-color: #337ab7;
+}
+#content{
+    margin-top: 10px;
+}
+.mar{
+    background-color: antiquewhite;
+    font-size: 1.5vw;
+    text-align: center;
+    color: blueviolet;
+}
+#last-data{
+    height: 100px;
+    background-color: #b4b4b4;
+    padding-top: 10px;
+}
+.navbar-temple{
+    width: 150px;
+    height: 50px;
+}
+#aboutme{
+    background-color: #804040;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.dropdown:hover>.dropdown-menu,.dropend:hover>.dropdown-menu{
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+    margin-right: 80%;
+}
+.dropdown .dropdown-menu{
+    display: none;
+}
+@media screen and (min-width:769px){
+    .dropend:hover>.dropdown-menu{
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+}
